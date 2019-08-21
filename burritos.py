@@ -61,7 +61,7 @@ def score(yummy,gross,name):
         win(yummy,gross,name)
     if gross > 2:    # if condition is valid, call lose function passing in the variables so it can use them
         lose(yummy,gross,name)
-    else:           # else, call nice_mean function passing in the variables so it can use them
+    else:           # else, call yummy_gross function passing in the variables so it can use them
         yummy_gross(yummy,gross,name)
 
 
