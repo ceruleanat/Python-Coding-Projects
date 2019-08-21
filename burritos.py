@@ -89,7 +89,7 @@ def again(yummy,gross,name):
             stop = False
             reset(yummy,gross,name)
         if choice == "n":
-            print("\nOh, so sad, sorry to see you go hungry!")
+            print("\nOh, so sad, sorry to see you go hungry! \n")
             stop = False
             quit()
         else:
